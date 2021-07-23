@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex tutorial</title>
+    <style>
+        body{
+            width: 100%;
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        #container{
+            display: grid;
+            grid-template-rows: 100px 400px 100px;
+            grid-template-columns: 200px 500px 200px;
+            background-color: rgb(45, 122, 45);
+            border: 3px solid rgb(27, 60, 75);
+        }
+        .box{
+            text-align: center;
+            font-size: 2em;
+            color: white;
+        }
+        .box1, .box2, .box3, .box4, .box5{
+            padding: 17px;
+            border: 2px solid #000;
+        }
+        .box1{
+            background-color: yellow;
+        }
+        .box2{
+            background-color: purple;
+        }
+        .box3{
+            background-color: aquamarine;
+        }
+        .box4{
+            background-color: brown;
+        }
+        .box5{
+            background-color: olivedrab;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+    </div>
+</body>
+</html>

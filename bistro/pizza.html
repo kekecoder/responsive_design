@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Form</title>
+</head>
+<body>
+    <h1>Black Goose Bistro | Pizza-on-Demand</h1>
+    <p>Our 12" Woord-fired pizzas are available for delivery. Buile you Custom Pizza and we'll deliver it within an hour</p>
+    <form action="http://www.blackgoosebistro.com/pizza.php" method="post">
+        <legend>Your Information</legend>
+        <label for="fullname">FullName:</label>
+        <input type="text" name="fullname" id="fullname" placeholder="Enter your FullName"><br>
+        <label for="address">Address:</label>
+        <input type="text" name="address" id="address" placeholder="Your Address"><br>
+        <label for="telephone">Telephone Number:</label>
+        <input type="tel" name="phone" id="phone" placeholder="Telephone Number"><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"><br>
+        <label for="instructions">Delivery Instructions:</label><br>
+        <textarea name="instruction" id="" cols="30" rows="10" maxlength="400" placeholder="No More than 400 characters long"></textarea><br>
+        <input type="submit" value="Bring Me a Pizza!"><input type="reset">
+    </form>
+</body>
+</html>
